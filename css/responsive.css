@@ -1,0 +1,104 @@
+@media screen and (max-width:991px){
+    #header-section .carousel h3{
+        font-size: 3rem;
+    }
+    #header-section .carousel h1{
+        font-size: 5rem;
+        font-weight: 700;
+        color: #80b435;
+        text-transform: uppercase;
+    }
+    #header-section .carousel h2{
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f89e34;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 999999999999999999999999999999999999999999;
+    }
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-transform: capitalize;
+    }
+    .sidenav a:hover {
+    color: #fafafa;
+    }
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    .navbar-light button{
+        border: none !important;
+    }
+}
+@media screen and (max-width:575px){
+    .heading{
+        font-size: 2.5rem;
+    }
+    .heading::after{
+        top: 4.3rem;
+        width: 17rem;
+    }
+    .services-text h2{
+        font-size: 3.5rem;
+    }
+    #about-section{
+        text-align: center !important;
+    }
+    footer{
+        text-align: center !important;
+    }
+    footer .media{
+        display: block;
+        text-align: center;
+    }
+    footer .media-body{
+        margin-top: .5rem;
+        width: 75% !important;
+        margin: auto;
+    }
+    footer .media i{
+        display: none !important;
+    }
+    .footer-widget .col-lg-3 {
+        padding: 0 1rem !important;
+    }
+    .footer-heading::before{
+        width: 0;
+    }
+    .form-control-custom{
+        text-align: center !important;
+    }
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #about-section{
+        padding: 6rem 0;
+    }
+    #shop-section{
+        padding: 7rem 0 2rem 0;
+    }
+    #offer-section{
+        padding: 3rem 0;
+    }
+    #service-section{
+        padding: 7rem 0 2rem 0;
+    }
+}
